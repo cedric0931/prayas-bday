@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_extras.add_vertical_space import add_vertical_space
+# from streamlit_extras.add_vertical_space import add_vertical_space
 
 st.set_page_config(
     page_title="Happy Birthday, Pookie! 🎉",
@@ -20,7 +20,7 @@ if st.button("Click me for a surprise! 🎁"):
     st.write("I'm so grateful to have you in my life. You're the best thing that's ever happened to me, and I hope this day is as amazing as you are! 🌟")
     st.write("Here's to many more birthdays together! 💖")
 
-    add_vertical_space(2)
+    # add_vertical_space(2)
 
     st.write("Surprise! I love you so much! 😘")
 
