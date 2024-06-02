@@ -1,5 +1,5 @@
 import streamlit as st
-# from streamlit_extras.add_vertical_space import add_vertical_space
+from streamlit_extras.add_vertical_space import add_vertical_space
 
 st.set_page_config(
     page_title="Happy Birthday, Pookie! 🎉",
@@ -7,7 +7,7 @@ st.set_page_config(
     layout="centered"
 )
 
-
+# if(True):
 if st.button("Click me for a surprise! 🎁"):
     st.balloons()
     
@@ -16,19 +16,39 @@ if st.button("Click me for a surprise! 🎁"):
 
     st.image("prayas1.jpg", caption="Have a blast on your special day! 🎈")
 
-    st.write("Hey Pookie,")
-    st.write("I'm so grateful to have you in my life. You're the best thing that's ever happened to me, and I hope this day is as amazing as you are! 🌟")
-    st.write("Here's to many more birthdays together! 💖")
+    st.title("Hey Pookie 🎀😘")
 
-    # add_vertical_space(2)
+    st.image("prayas2.jpg")
 
-    st.write("Surprise! I love you so much! 😘")
+    st.title("I'm so grateful to have you in my life.🫡🫂")
+
+    st.image("prayas3.jpg")
+                 
+    st.title("You're the best thing that's ever happened to me 🥰✨, and I hope this day is as amazing as you are! 🌟")
+
+    st.image("prayas4.jpg")
+
+    st.title("🎈Here's to another year of being #RelationshipGoals! 🙌💖")
+
+    st.image("prayas5.jpg")
+
+    st.title("Stay drip and keep slaying bitch, because you're the GOAT in my book! 🐐")
+
+    st.image("prayas6.jpg")
+
+    st.title("Surprise! I love you so much! #nohomo 😘")
 
     st.video("https://youtu.be/NhHb9usKy6Q?si=nb_p7WylGqsHpx8V")
 
     # Footer
-    st.write("With all my love, 💕")
-    st.write("Your Boo")
+    st.subheader("With all my love, 💕")
+    st.subheader("Your Boo")
+
+    st.image("deep.jpg")
+
+    st.subheader("Just in case you're single:")
+
+    st.image("kool.jpg")
 
 
 
